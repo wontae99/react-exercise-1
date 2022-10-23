@@ -1,0 +1,18 @@
+.user-item {
+  margin: 1rem 0;
+  background: #4f005f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.user-item:hover,
+.user-item:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.user-item:focus {
+  outline: none;
+}
